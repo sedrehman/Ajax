@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page 1</title>
+</head>
+<body id="body_itself" onload="setInterval(getData, 1000)">
+    
+	<h1 id=query_input></h1>
+    <div  class= "body_contents">
+
+        <form id=myForm action="/myFrom" method="post" enctype="multipart/form-data"; return=false>
+            <label for="form-name">Enter your name: </label><br/>
+            <input id="form-name" type="text" name="commenter"><br/>
+           
+            <label for="form-comment">Comment: </label><br/>
+            <input id="form-comment" type="text" name="comment"><br/>
+           
+            <input id="submit_button" type="button" value="Submit" onclick="sendData()">
+        </form> 
+
+        <p>Hello world</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- <br> -->
+        <p id=content_post></p>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

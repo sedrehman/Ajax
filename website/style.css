@@ -1,0 +1,37 @@
+
+#body_itself{
+    background-color:  #f5f5f6;
+}
+.body_contents{
+    max-width: 80%;
+    margin: auto;
+}
+
+#myForm, #myImageForm{
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 20px;
+    
+    /* border-radius: 3%; */
+}
+
+#form-name, #form-comment{
+    margin: 8px 0;
+    height: 20px;
+    width: 100%;
+    padding : 10px, 0;
+    display: inline-block;
+    
+}
+
+#myForm input[type="submit"] {
+    margin-top: 15px; 
+    background-color: #333;
+    color: white;
+    height: 30px;
+    width: 20%;
+    border: none;
+}
+
+
